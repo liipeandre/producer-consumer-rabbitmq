@@ -1,0 +1,19 @@
+# Produtor-Consumidor com Flask, RabbitMQ, Docker e Docker Compose
+
+## Autor
+
+- André Felipe Pereira dos Santos
+
+## Descrição
+
+Esse projeto é uma aplicação web simples usando Python e Flask, numa arquitetura publish-subscribe e usando RabbitMQ
+como message broker. Nesse projeto:
+
+- Um produtor (producer), desenvolvido em Flask, cria mensagens no formato JSON para o consumidor em uma fila de requisições;
+
+- Um consumidor (consumer) lê as mensagens, as converte e realiza as operações em um banco de dados SQLite, retornando
+o resultado delas para o produtor (producer), através de uma outra fila de respostas;
+
+- O RabbitMQ mantêm as mensagens e faz a ligação entre o produtor (producer) e o consumidor (consumer)
+
+O RabbitMQ deve ser configurado em um contâiner Docker, usando os arquivos da pasta 'rabbitmq'.

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c93d342d-3326-454e-921f-a4f59bcc58b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/consumer/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/models/Usuario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/templates/usuario/editar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producer/templates/usuario/inserir.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/RabbitMQ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/config_files/enabled_plugins" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/docker-config.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq/docker-first-run.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README (pt-br)" beforeDir="false" afterPath="$PROJECT_DIR$/README (pt-br)" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/create_sqlite.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/models/ModeloModel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/templates/operacoes_template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/views/ModeloView.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/views/OperacoesView.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Usuario.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usuario/editar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usuario/inserir.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/usuario.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1wBQy6QAO3pmyEFeoVVkzAJVEdb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/producer" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andre\Documents\Projetos\producer-consumer-rabbitmq\producer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andre\Documents\Projetos\producer-consumer-rabbitmq\consumer\database" />
+      <recent name="C:\Users\Andre\Documents\Projetos\producer-consumer-rabbitmq\rabbitmq" />
+      <recent name="C:\Users\Andre\Documents\Projetos\producer-consumer-rabbitmq\rabbitmq\config_files" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flask server.Producer">
+    <configuration name="Consumer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tutorial-flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/consumer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/consumer/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Producer" type="Python.FlaskServer" temporary="true">
+      <module name="tutorial-flask" />
+      <option name="target" value="$PROJECT_DIR$/producer/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.Producer" />
+      <item itemvalue="Python.Consumer" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Producer" />
+        <item itemvalue="Python.Consumer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c93d342d-3326-454e-921f-a4f59bcc58b5" name="Default Changelist" comment="" />
+      <created>1627929753556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627929753556</updated>
+      <workItem from="1627929757028" duration="8788000" />
+      <workItem from="1628376588727" duration="1861000" />
+      <workItem from="1628379838948" duration="1536000" />
+      <workItem from="1628788177177" duration="82000" />
+      <workItem from="1633180895328" duration="6396000" />
+      <workItem from="1633192560759" duration="449000" />
+      <workItem from="1633193825903" duration="5698000" />
+      <workItem from="1633378839294" duration="1460000" />
+      <workItem from="1633441518389" duration="6186000" />
+      <workItem from="1633623033037" duration="34000" />
+      <workItem from="1633957675254" duration="1799000" />
+      <workItem from="1633960570342" duration="3770000" />
+      <workItem from="1634216754909" duration="17131000" />
+      <workItem from="1634562208088" duration="70000" />
+      <workItem from="1634828997291" duration="215000" />
+      <workItem from="1635342785300" duration="92000" />
+      <workItem from="1635343524858" duration="81000" />
+      <workItem from="1635781364279" duration="6935000" />
+      <workItem from="1636118129949" duration="238000" />
+      <workItem from="1636119032790" duration="10477000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/database.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Python.FlaskServer">
+        <watch expression="database" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tutorial_flask$tutorial_flask.coverage" NAME="tutorial-flask Coverage Results" MODIFIED="1628376687384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/producer_consumer_rabbitmq$Consumer.coverage" NAME="Consumer Coverage Results" MODIFIED="1636132589912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/consumer" />
+    <SUITE FILE_PATH="coverage/producer_consumer_rabbitmq$Flask__producer_app_py_.coverage" NAME="Producer Coverage Results" MODIFIED="1635791096007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tutorial_flask$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1633448578181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/producer_consumer_rabbitmq$main.coverage" NAME="Consumer Coverage Results" MODIFIED="1635791088850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/consumer" />
+    <SUITE FILE_PATH="coverage/producer_consumer_rabbitmq$Producer.coverage" NAME="Producer Coverage Results" MODIFIED="1636132594464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

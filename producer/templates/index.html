@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Lista de Usuários</title>
+    </head>
+    <body>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <p>
+                      {{ message }}
+                    </p>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <button onclick="location.href='{{ url_for('usuario.inserir') }}'">Adicionar Novo Usuário</button>
+
+        {% if usuarios %}
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome do Usuário</th>
+                    <th>Idade</th>
+                </tr>
+
+                {% for usuario in usuarios %}
+                    <tr>
+                        <td> {{ usuario.id_usuario }} </td>
+                        <td> {{ usuario.nome }} </td>
+                        <td> {{ usuario.idade }} </td>
+                        <td><a href="{{ url_for('usuario.editar', id_usuario=usuario.id_usuario) }}">Editar</a></td>
+                        <td><a href="{{ url_for('usuario.deletar', id_usuario=usuario.id_usuario) }}">Deletar</a></td>
+                    </tr>
+                {% endfor %}
+
+            </table>
+
+        {% else %}
+            <p> Nenhum usuário cadastrado </p>
+        {% endif %}
+
+    </body>
+</html>

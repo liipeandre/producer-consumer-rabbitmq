@@ -1,0 +1,1 @@
+docker exec rabbitmq /home/docker-config.sh
