@@ -7,7 +7,7 @@
 ## Description
 
 This project is a simple web application using Python and Flask, in a publish-subscribe architecture and using RabbitMQ
-as a message broker. In this project:
+as message broker. In this project:
 
 - A producer (producer), developed in Flask, creates messages in JSON format for the consumer in a request queue;
 
